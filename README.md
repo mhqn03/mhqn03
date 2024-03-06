@@ -9,9 +9,7 @@
 
 ###
 
-<div align="right" style="border-radius: 12px;">
-  <img height="180" src="https://i.pinimg.com/originals/0d/22/ae/0d22ae6fe219f106395c2901968e167e.gif"  />
-</div>
+<img align="right" style="border-radius: 12px;" height="180" src="https://i.pinimg.com/originals/0d/22/ae/0d22ae6fe219f106395c2901968e167e.gif"  />
 
 ###
 
