@@ -1,0 +1,31 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+  workflow_dispatch:
+
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v2
+      - uses: yoshi389111/github-profile-3d-contrib@0.2.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: mhqn03
+      - name: Commit & Push
+        run: |
+          git config user.name mhqn03
+          git config user.email qanah03@gmail.com
+          git add -A .
+          git commit -m "generated"
+          git push
