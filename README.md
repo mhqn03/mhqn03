@@ -56,6 +56,6 @@
 <br clear="both">
 
 <!-- <img src="https://raw.githubusercontent.com/mhqn03/mhqn03/output/snake.svg" alt="Snake animation" /> -->
-<img src="./profile-3d-contrib/profile-season.svg" alt="Profile 3d" />
+<img src="./profile-3d-contrib/profile-season-animate.svg" alt="Profile 3d" />
 
 ###
