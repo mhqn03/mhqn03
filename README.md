@@ -40,7 +40,7 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/minh-qu%C3%A2n-5b04a5245/" target="_blank">
+  <a href="https://www.linkedin.com/in/mhqn03/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="30" alt="linkedin logo"  />
   </a>
   <a href="qanah03@gmail.com" target="_blank">
