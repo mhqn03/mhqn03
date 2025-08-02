@@ -27,8 +27,6 @@ jobs:
           USERNAME: mhqn03
       - name: Commit & Push
         run: |
-          git config user.name mhqn03
-          git config user.email qanah03@gmail.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          # git add -A .
+          # git commit -m "generated"
+          # git push
